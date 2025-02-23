@@ -1,1 +1,12 @@
-
+print( ' The number is between 1-10')
+choosing= random.randint(1,100)
+while True:
+    guess = int(input('guess a number:'))
+    if guess < choosing:
+        print (' You can go higher!')
+    elif guess > choosing :
+        print( 'You can go lower!')
+    else :
+        print ( ' You got it!') # add only three tries
+        break
+print (' Copyrighted, code was made by Aradhya Singh<3)
